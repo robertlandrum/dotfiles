@@ -5,6 +5,9 @@
 	nixpkgs.config.allowUnfree = true;
 	nixpkgs.hostPlatform = "aarch64-darwin";
 	system.primaryUser = "robertlandrum";
+	users.users.robertlandrum = {
+		home = "/Users/robertlandrum";
+	};
 	system.stateVersion = 6;
 
 	system.defaults = {
@@ -24,12 +27,17 @@
 	nix-homebrew = {
 		enable = true;
 		user = "robertlandrum";
+		autoMigrate = true;
 	};
 	homebrew = {
 		enable = true;
 		onActivation.cleanup = "zap";
 		onActivation.autoUpdate = true;
 		onActivation.extraFlags = [ "--force" ];
+		brews = [
+			"python@3.12"
+			"uv"
+		];
 		casks = [
 			"wezterm"
 		];
