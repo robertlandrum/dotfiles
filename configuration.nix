@@ -37,9 +37,11 @@
 		brews = [
 			"python@3.12"
 			"uv"
+			"herdr"
 		];
 		casks = [
 			"wezterm"
+			"claude-code"
 		];
 	};
 

@@ -1,0 +1,73 @@
+2026-07-13T01:33:59.589247Z  INFO herdr::platform::macos: raised server file descriptor soft limit previous=2560 target=8192
+2026-07-13T01:33:59.590150Z  INFO herdr::api::server: api server listening path=/Users/robertlandrum/.config/herdr/herdr.sock
+2026-07-13T01:33:59.590881Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-07-13T01:33:59.608919Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T01:33:59.615365Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-07-13T01:33:59.618376Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=30448
+2026-07-13T01:33:59.618760Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w1" pane_id=1
+2026-07-13T01:33:59.618789Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-07-13T01:33:59.618840Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-13T01:33:59.618863Z  INFO herdr::server::headless: created startup workspace cwd=/Users/robertlandrum/github/robertlandrum/dotfiles
+2026-07-13T01:33:59.619067Z  INFO herdr::server::headless: client protocol socket listening path=/Users/robertlandrum/.config/herdr/herdr-client.sock
+2026-07-13T01:33:59.619102Z  INFO herdr::server::headless: herdr server started api_socket=/Users/robertlandrum/.config/herdr/herdr.sock client_socket=/Users/robertlandrum/.config/herdr/herdr-client.sock
+2026-07-13T01:33:59.619136Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=30415
+2026-07-13T01:33:59.850033Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T01:33:59.876138Z  INFO herdr::server::headless: client connected client_id=2 cols=270 rows=75 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-13T01:34:04.622978Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/robertlandrum/.config/herdr/session.json workspaces=1
+2026-07-13T01:34:30.414035Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=74 cols=244 scrollback_limit_bytes=10000000
+2026-07-13T01:34:30.423326Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=30795
+2026-07-13T01:34:30.423691Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-13T01:34:35.427863Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/robertlandrum/.config/herdr/session.json workspaces=1
+2026-07-13T01:34:54.687446Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=37 cols=244 scrollback_limit_bytes=10000000
+2026-07-13T01:34:54.694800Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=31010
+2026-07-13T01:34:54.695359Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-13T01:34:56.209068Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 0, signal: None }"
+2026-07-13T01:34:56.211221Z  INFO herdr::pane: pane session terminated pane=3 pid=31010 signal=Hangup
+2026-07-13T01:34:57.970551Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 130, signal: None }"
+2026-07-13T01:34:57.971699Z  INFO herdr::pane: pane session terminated pane=2 pid=30795 signal=Hangup
+2026-07-13T01:35:02.979495Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/robertlandrum/.config/herdr/session.json workspaces=1
+2026-07-13T01:35:21.354063Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-13T01:36:03.007602Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 0, signal: None }"
+2026-07-13T01:36:03.009487Z  INFO herdr::pane: pane session terminated pane=1 pid=30448 signal=Hangup
+2026-07-13T01:36:03.009933Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=74 cols=244 scrollback_limit_bytes=10000000
+2026-07-13T01:36:03.016214Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=31412
+2026-07-13T01:36:03.016479Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w2" pane_id=4
+2026-07-13T01:36:03.016501Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T01:36:03.016514Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T01:36:05.546619Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=4 status="ExitStatus { code: 0, signal: None }"
+2026-07-13T01:36:05.547579Z  INFO herdr::pane: pane session terminated pane=4 pid=31412 signal=Hangup
+2026-07-13T01:36:05.547926Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=5 rows=74 cols=244 scrollback_limit_bytes=10000000
+2026-07-13T01:36:05.555062Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=5 pid=31495
+2026-07-13T01:36:05.555607Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w3" pane_id=5
+2026-07-13T01:36:05.555645Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T01:36:05.555663Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T01:36:10.563855Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/robertlandrum/.config/herdr/session.json workspaces=1
+2026-07-13T01:36:43.951454Z  INFO herdr::server::headless: client detach requested via keybind client_id=2
+2026-07-13T01:36:43.956258Z  INFO herdr::server::headless: client disconnected client_id=2
+2026-07-13T01:41:41.754394Z  INFO herdr::server::headless: client connected client_id=4 cols=270 rows=75 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-13T01:42:42.257101Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=6 rows=74 cols=244 scrollback_limit_bytes=10000000
+2026-07-13T01:42:42.265181Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=6 pid=35586
+2026-07-13T01:42:42.265526Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T01:42:47.275238Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/robertlandrum/.config/herdr/session.json workspaces=1
+2026-07-13T01:42:51.741119Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=7 rows=74 cols=122 scrollback_limit_bytes=10000000
+2026-07-13T01:42:51.749085Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=7 pid=35709
+2026-07-13T01:42:51.749457Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T01:42:56.753158Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/robertlandrum/.config/herdr/session.json workspaces=1
+2026-07-13T01:42:58.837356Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T01:43:03.846278Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/robertlandrum/.config/herdr/session.json workspaces=1
+2026-07-13T01:43:10.034292Z  INFO herdr::pane: agent changed pane=5 previous_agent=None agent=Some(Claude) process=claude pgid=Some(35901)
+2026-07-13T01:51:12.647737Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-13T01:52:03.864348Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-13T01:56:11.607886Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T01:56:13.845291Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=6 status="ExitStatus { code: 0, signal: None }"
+2026-07-13T01:56:13.845426Z  INFO herdr::pane: pane session terminated pane=6 pid=35586 signal=Hangup
+2026-07-13T01:56:16.729287Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=7 status="ExitStatus { code: 0, signal: None }"
+2026-07-13T01:56:16.729375Z  INFO herdr::pane: pane session terminated pane=7 pid=35709 signal=Hangup
+2026-07-13T01:56:21.738690Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/robertlandrum/.config/herdr/session.json workspaces=1
+2026-07-13T01:58:44.853766Z  INFO herdr::pane: agent changed pane=5 previous_agent=Some(Claude) agent=None pgid=Some(31495)
+2026-07-13T01:59:52.469978Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-13T02:03:17.432862Z  INFO herdr::app::actions: copied double-clicked token to clipboard
+2026-07-13T02:03:59.626202Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T02:03:59.837344Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T02:04:20.156070Z  INFO herdr::server::headless: client detach requested via keybind client_id=4
+2026-07-13T02:04:20.161319Z  INFO herdr::server::headless: client disconnected client_id=4

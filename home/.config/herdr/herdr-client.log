@@ -1,0 +1,14 @@
+2026-07-13T01:33:59.639357Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=30413
+2026-07-13T01:33:59.639426Z  INFO herdr::client: connecting to server path=/Users/robertlandrum/.config/herdr/herdr-client.sock
+2026-07-13T01:33:59.876104Z  INFO herdr::client: handshake succeeded version=16 encoding=SemanticFrame
+2026-07-13T01:35:21.353567Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-13T01:35:21.353818Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-13T01:36:43.952550Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=30413
+2026-07-13T01:41:41.605868Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=35282
+2026-07-13T01:41:41.606109Z  INFO herdr::client: connecting to server path=/Users/robertlandrum/.config/herdr/herdr-client.sock
+2026-07-13T01:41:41.754389Z  INFO herdr::client: handshake succeeded version=16 encoding=SemanticFrame
+2026-07-13T01:51:12.646372Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-13T01:51:12.647593Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-13T01:52:03.863917Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-13T01:52:03.864143Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-13T02:04:20.157003Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=35282
