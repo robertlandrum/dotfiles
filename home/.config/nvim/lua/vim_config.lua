@@ -1,5 +1,6 @@
 local o = vim.opt
 vim.g.mapleader = ' '       -- space is the leader key
+o.tabstop = 2
 o.expandtab = true          -- spaces not tabs
 o.shiftwidth = 2            -- 2 spaces per indent
 o.number = true             -- absolute numbers on line
