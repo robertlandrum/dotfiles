@@ -15,13 +15,13 @@
 			AppleInterfaceStyle = "Dark";
 			KeyRepeat = 2;
 			InitialKeyRepeat = 15;
-			_HIHideMenuBar = true;
+			_HIHideMenuBar = false;
 			AppleShowAllExtensions = true;
 
 		};
-		dock.autohide = true;
+		dock.autohide = false;
 		finder.FXPreferredViewStyle = "Nlsv";
-		finder.CreateDesktop = false;
+		finder.CreateDesktop = true;
 		trackpad.Clicking = true;
 	};
 	nix-homebrew = {
@@ -38,10 +38,14 @@
 			"python@3.12"
 			"uv"
 			"herdr"
+			"opencode"
+			"pi-coding-agent"
 		];
 		casks = [
 			"wezterm"
 			"claude-code"
+			"codex"
+			"opensuperwhisper"
 		];
 	};
 

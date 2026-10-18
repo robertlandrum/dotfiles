@@ -13,19 +13,23 @@
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
 
     nix-homebrew.url = "github:zhaofengli/nix-homebrew";
+    treehouse = {
+      url = "github:kunchenguid/treehouse";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
-  outputs = inputs@{ self, nix-darwin, nix-homebrew, home-manager, nixpkgs }: {
+  outputs = inputs@{ self, nix-darwin, nix-homebrew, home-manager, treehouse, nixpkgs }: {
     darwinConfigurations."mac" = nix-darwin.lib.darwinSystem {
       modules = [ 
-      	./configuration.nix 
-	nix-homebrew.darwinModules.nix-homebrew
-	home-manager.darwinModules.home-manager
-	{
-	  home-manager.useGlobalPkgs = true;
-	  home-manager.useUserPackages = true;
-	  home-manager.users.robertlandrum = import ./home.nix;
-	}
+        ./configuration.nix 
+        nix-homebrew.darwinModules.nix-homebrew
+        home-manager.darwinModules.home-manager
+        {
+          home-manager.useGlobalPkgs = true;
+          home-manager.useUserPackages = true;
+          home-manager.users.robertlandrum = import ./home.nix;
+        }
 
       ];
     };
